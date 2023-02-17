@@ -1,8 +1,18 @@
+.bigbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
 .ppg img {
   width: 68px;
   height: 68px;
   background-color: black;
-  margin-right: auto;
+  margin-left: auto;
 }
 .navigate {
   display: flex;
@@ -10,5 +20,12 @@
   color: red;
   background-color: black;
   padding: 20px 0 20px 80px;
+}
+.links a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.links {
+  background-color: green;
   margin-left: auto;
 }
