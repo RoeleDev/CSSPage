@@ -9,23 +9,43 @@
   text-align: center;
 }
 .ppg img {
-  width: 68px;
-  height: 68px;
-  background-color: black;
+  width: 88px;
+  height: 88px;
+  background-color: #fec778;
   margin-left: auto;
+  border-radius: 50%;
+  border: 4px solid rgb(146, 207, 207);
 }
 .navigate {
   display: flex;
   align-items: center;
   color: red;
-  background-color: black;
+  background-color: #fec778;
   padding: 20px 0 20px 80px;
 }
 .links a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #000;
+  gap: 20px;
+  padding: 20px;
 }
 .links {
-  background-color: green;
   margin-left: auto;
+}
+.fanpage {
+  display: flex;
+  align-items: center;
+  background-color: #fec778;
+  color: darkblue;
+}
+.fani img {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  border: 4px solid rgb(105, 23, 72);
+  border-radius: 45%;
+  flex: 1;
+}
+.fanpage {
+  justify-content: start;
 }
