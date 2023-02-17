@@ -1,16 +1,14 @@
-.home1 {
-  display: flex;
-  justify-content: center;
-  border: 15px;
-  border-color: aqua;
-  margin: 10px;
-  padding: 10px;
+.ppg img {
+  width: 68px;
+  height: 68px;
   background-color: black;
-  color: aliceblue;
+  margin-right: auto;
 }
-
-.li,
-ul {
-  list-style: none;
-  list-style-type: none;
+.navigate {
+  display: flex;
+  align-items: center;
+  color: red;
+  background-color: black;
+  padding: 20px 0 20px 80px;
+  margin-left: auto;
 }
